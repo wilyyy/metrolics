@@ -13,6 +13,7 @@
 
 html {
   color: #222;
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -75,6 +76,7 @@ fieldset {
   padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -83,10 +85,16 @@ textarea {
   resize: vertical;
 }
 
+img{
+  width: 100%;
+}
+
+h1{
+  color: #000;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 
 /* ==========================================================================
    Helper classes
